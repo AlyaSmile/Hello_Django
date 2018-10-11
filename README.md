@@ -2,7 +2,7 @@
 The sample of using Python, Django and Docker. 
 
 ## Steps
-### Docker buikd
+### Docker build
 Dockerfile:
 ```
  FROM python:alpine
@@ -24,7 +24,7 @@ docker run -d --name hello_django -p 9876:8000 hello_django
 * http://127.0.0.1:9876/hello/Hello_django
 
 
-### PS
+##### PS
 ```
 docker pull bobjob/hello_django
 ```
